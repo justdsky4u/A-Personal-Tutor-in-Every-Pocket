@@ -1,0 +1,8 @@
+{
+  "name": "a-personal-tutor-in-every-pocket",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm run dev",
+    "start:mobile": "cd mobile && npm start"
+  }
+}

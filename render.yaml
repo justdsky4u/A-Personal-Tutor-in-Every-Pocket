@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tutor-sync-backend
+    env: node
+    plan: free
+    branch: main
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm run dev
+    healthCheckPath: /health
+    autoDeploy: true
