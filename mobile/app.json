@@ -4,7 +4,7 @@
     "slug": "a-personal-tutor-in-every-pocket",
     "version": "0.1.0",
     "scheme": "tutor-pocket",
-    "platforms": ["ios", "android"],
+    "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
     "updates": {
       "fallbackToCacheTimeout": 0

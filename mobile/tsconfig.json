@@ -9,8 +9,17 @@
     "isolatedModules": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "typeRoots": ["./node_modules/@types", "./typings"]
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ]
   },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "extends": "expo/tsconfig.base"
 }
